@@ -1,0 +1,51 @@
+{
+  "builder_name": "json",
+  "citation": "",
+  "config_name": "shibing624--AdvertiseGen",
+  "dataset_size": 51601230,
+  "description": "",
+  "download_checksums": {
+    "https://huggingface.co/datasets/shibing624/AdvertiseGen/resolve/5e66c32b4f0d6c9f8a3ab137282d6734fb25f37d/train.json": {
+      "num_bytes": 53763280,
+      "checksum": null
+    },
+    "https://huggingface.co/datasets/shibing624/AdvertiseGen/resolve/5e66c32b4f0d6c9f8a3ab137282d6734fb25f37d/dev.json": {
+      "num_bytes": 498394,
+      "checksum": null
+    }
+  },
+  "download_size": 54261674,
+  "features": {
+    "content": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "summary": {
+      "dtype": "string",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 105862904,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 51127446,
+      "num_examples": 114599,
+      "dataset_name": "json"
+    },
+    "validation": {
+      "name": "validation",
+      "num_bytes": 473784,
+      "num_examples": 1070,
+      "dataset_name": "json"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}
